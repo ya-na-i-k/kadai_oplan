@@ -1,0 +1,13 @@
+.mobile-menu {
+    position: fixed;
+    right: 0;
+    top: 60px;
+    width: 300px;
+    background-color: #00004d;
+
+    &__btn {
+        border: none;
+        outline: none !important;
+        cursor: pointer;
+    }
+}
