@@ -5,60 +5,268 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OPLAN Inc.</title>
+    <link rel="icon" href="images/faviconV2.png">
     <link rel="stylesheet" href="styles/loader.css" />
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body>
-    <header class="header">
+  <body>   
+    <div id="loading">
+      <div class="spinner">
+        <img src="images/logo.png" alt=""></div>
+        <div class="loadtext">
+          <div class="loadtext_1 loadtexter">O</div>
+          <div class="loadtext_2 loadtexter">P</div>
+          <div class="loadtext_3 loadtexter">L</div>
+          <div class="loadtext_4 loadtexter">A</div>
+          <div class="loadtext_5 loadtexter">N</div>
+        </div>
+  </div>
+    <header class="header js-header">
       <div class="headerback">
-        <img class="header__icon" src="images/logo-white.png" alt="">
+        <img class="header__icon" src="images/logo-white.png" alt="" />
+        <img class="header__icon_2" src="images/logo.png" alt="">
         <div class="header__list">
-          <a href="">Home</a>
-          <a href="">Service</a>
-          <a href="">Company</a>
-          <a href="">Recruit</a>
-          <a href="">Contact</a>
+          <a class="header__home" href="index.html">Home</a>
+          <a class="header__serv" href="">Service</a>
+          <a class="header__comp" href="">Company</a>
+          <a class="header__recr" href="">Recruit</a>
+          <a class="header__cont" href="">Contact</a>
         </div>
       </div>
     </header>
-    <section class="hero-section">
-      <div class="hero">   
-        <div class="hero__title">OPLAN INC.</div>     
-        <div class="hero__title__sub">世界中の人々に喜んでもらえるサービス・プロダクトを！</div>     
-        <video class="hero__video" src="images/banner.mp4" muted autoplay playsinline loop>
-      </video>
+    <div class="hero-div">
+      <div class="hero">
+        <div class="hero__title">OPLAN INC.</div>
+        <div class="hero__title__sub">
+          世界中の人々に喜んでもらえるサービス・プロダクトを！
+        </div>
+        <video
+          class="hero__video"
+          src="images/banner.mp4"
+          muted
+          autoplay
+          playsinline
+          loop
+        ></video>
       </div>
-    </section>
-    <section class="middle-section">
+    </div>
+    <div class="middle-div">
       <div class="middle">
         <div class="middle__textbox">
-        <div class="middle__title">SERVICES</div>
-        <div class="middle__title__sub">事業内容</div>
+          <div class="middle__title">SERVICES</div>
+          <div class="middle__title__sub">事業内容</div>
         </div>
         <div class="middle__contents">
           <div class="middle__left__box">
-            <div class="middle__left__text__outer">お客様の課題に応えられる理想的なソリューションを提供</div>
+            <a href="#" class="middle__left__text__outer"
+              >お客様の課題に応えられる理想的なソリューションを提供</a
+            >
             <div class="middle__left">
               <div class="middle__left__text">IT Solution</div>
               <div class="middle__left__text__sub">業務委託/請負開発</div>
-              <img class="middle__images_l" src="images/service-it.jpg" alt=""></div>  
+              <img
+                class="middle__images_l"
+                src="images/service-it.jpg"
+                alt=""
+              />
+            </div>
           </div>
           <div class="middle__center__box">
-            <div class="middle__center__text__outer">世の中がより便利になるように斬新なITサービスを提供</div>
+            <a href="#" class="middle__center__text__outer"
+              >世の中がより便利になるように斬新なITサービスを提供</a
+            >
             <div class="middle__center">
               <div class="middle__center__text">Products</div>
               <div class="middle__center__text__sub">自社提供サービス</div>
-              <img class="middle__images_c" src="images/service-products.jpg" alt=""></div>  
+              <img
+                class="middle__images_c"
+                src="images/service-products.jpg"
+                alt=""
+              />
+            </div>
           </div>
           <div class="middle__right__box">
-            <div class="middle__right__text__outer">“伝わる動画”と”伝わるデザイン”お客様の伝えたいを形に</div>
+            <a href="#" class="middle__right__text__outer"
+              >“伝わる動画”と”伝わるデザイン”お客様の伝えたいを形に</a
+            >
             <div class="middle__right">
               <div class="middle__right__text">Media</div>
               <div class="middle__right__text__sub">動画/デザイン制作</div>
-              <img class="middle__images_r" src="images/service-media.jpg" alt=""></div>  
+              <img
+                class="middle__images_r"
+                src="images/service-media.jpg"
+                alt=""
+              />
+            </div>
           </div>
         </div>
+        <a href="#" class="middle__btn">Read more</a>
       </div>
-    </section>
+    </div>
+    <div class="down-div">
+      <div class="down">
+        <div class="down__text__title">COMPANY</div>
+        <div class="down__text__sub">企業情報</div>
+        <div class="down__text__main">
+          オープランは2015年に「ITをより身近に」をコンセプトに設立されました。<br />
+          創業から現在まで、このコンセプトで運営を行い、<br />
+          数多くのお客様から実績を基に信頼をいただける企業へと成長しました。<br />
+          <br />
+          これからは第二創業期として、ITのトータルカンパニーとして、<br />
+          様々なソフトウェアを世に展開していきます。<br />
+          豊富なアイディアを具現化し商品化していくことで、事業をより多角化していきます。
+        </div>
+      </div>
+      <a href="#" class="down__btn">Read more</a>
+    </div>
+    <div class="news-div">
+      <div class="news__text__box">
+        <div class="news__title">NEWS</div>
+        <div class="news__sub">新着情報</div>
+      </div>
+      <div class="news__up">
+        <div class="news__contents__box__1">
+          <div class="news__contents__1 news__contents">
+            <img src="images/ソフトウェア品質向上宣言マークr.png" alt="" />
+          </div>
+          <h2 href="#" class="news__h2">
+            <a href="#">ソフトウェア品質向上宣言認証を取得しました</a>
+          </h2>
+          <div class="news__h2__sub">2022/4/27</div>
+        </div>
+        <div class="news__contents__box__1">
+          <div class="news__contents__2 news__contents">
+            <img src="images/インタビューリサイズ.jpg" alt="" />
+          </div>
+          <h2 class="news__h2">
+            <a href="#">
+              【メディア掲載】おすすめの恋活・婚活サービスを紹介するメディア「まちあい」で「meple」が紹介されました
+            </a>
+          </h2>
+          <div class="news__h2__sub">2022/4/27</div>
+        </div>
+        <div class="news__contents__box__1">
+          <div class="news__contents__3 news__contents">
+            <img
+              src="images/スクリーンショット-2022-03-10-9.33.28.png"
+              alt=""
+            />
+          </div>
+          <h2 class="news__h2">
+            <a href="#">ORICON NEWSで紹介されました！</a>
+          </h2>
+          <div class="news__h2__sub">2022/3/10</div>
+        </div>
+      </div>
+      <div class="news__dn">
+        <div class="news__contents__box__1">
+          <div class="news__contents__1 news__contents">
+            <img src="images/ニュースフリーリサイズ.jpg" alt="" />
+          </div>
+          <h2 class="news__h2">
+            <a href="#">産経ニュースで紹介されました！</a>
+          </h2>
+          <div class="news__h2__sub">2022/2/2</div>
+        </div>
+        <div class="news__contents__box__1">
+          <div class="news__contents__2 news__contents">
+            <img src="images/doda2201リサイズ.jpeg" alt="" />
+          </div>
+          <h2 class="news__h2">
+            <a href="#"> エンジニア募集！未経験からの挑戦お待ちしています！ </a>
+          </h2>
+          <div class="news__h2__sub">2022/1/27</div>
+        </div>
+        <div class="news__contents__box__1">
+          <div class="news__contents__1 news__contents">
+            <img
+              src="images/賢者グローバル_テキストバナーリサイズ.jpeg"
+              alt=""
+            />
+          </div>
+          <h2 class="news__h2">
+            <a href="#">弊社代表がKENJA GLOBALに取材されました！</a>
+          </h2>
+          <div class="news__h2__sub">2022/1/5</div>
+        </div>
+      </div>
+      <a href="#" class="news__btn">Read more</a>
+    </div>
+    <div class="recrut-div">
+      <div class="recrut">
+        <div class="recrut__text__title">RECRUIT</div>
+        <div class="recrut__text__sub">採用情報</div>
+        <div class="recrut__text__main">
+          オープランの強い想いであるフラットでフェアな組織であること。<br />
+          ミッション達成のために必要なことを考え、行動できる組織であること。<br />
+          社員全員この想いを体現し続けています。<br />
+          <br />
+          実力主義の考えをもち、年功序列主義でなく、<br />
+          風通しがよいIT企業にて働きたいと考えている方は<br />
+          是非オープランのリクルートページをご覧ください。
+        </div>
+      </div>
+      <a href="#" class="recrut__btn">Read more</a>
+    </div>
+    <div class="bottom-div">
+      <div class="bottom__map__title">アクセス</div>
+      <iframe
+        class="bottom__map"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12959.852505222425!2d139.779925!3d35.702525!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xee51261061043f33!2z44Kq44O844OX44Op44Oz5qCq5byP5Lya56S-!5e0!3m2!1sja!2sjp!4v1656392208966!5m2!1sja!2sjp"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      <div class="bottom__map__link">公式リンク</div>
+      <div class="bottom__list">
+        <div class="bottom__list__mem"><a href="#" target="_blank">-Recruit</a></div>
+        <div class="bottom__list__mem"><a href="https://blog.oplan.co.jp/" target="_blank">-Blog</a></div>
+        <div class="bottom__list__mem"><a href="https://www.facebook.com/oplaninc/" target="_blank">-Facebook</a></div>
+        <div class="bottom__list__mem"><a href="https://twitter.com/oplan_inc" target="_blank">-Twitter</a></div>
+        <div class="bottom__list__mem"><a href="https://www.youtube.com/channel/UCR9wMyzkmr9q78WbX8XMeoA" target="_blank">-YouTube</a></div>
+      </div>
+      <a href="#" class="bottom__btn">お問い合わせ</a>
+      <div class="bottom__company__box">
+        <div class="bottom__company__title">会社概要</div>
+        <div class="bottom__company">
+          <div class="bottom__company__li">会社名</div>
+          <div class="bottom__company__main">オープラン株式会社</div>
+        </div>
+        <div class="bottom__company">
+          <div class="bottom__company__li">住所</div>
+          <div class="bottom__company__main">
+            東京都台東区台東２丁目３－２MKビル４階
+          </div>
+        </div>
+        <div class="bottom__company">
+          <div class="bottom__company__li">代表者</div>
+          <div class="bottom__company__main">大原 文華</div>
+        </div>
+        <div class="bottom__company">
+          <div class="bottom__company__li">設立</div>
+          <div class="bottom__company__main">2015年2月（決算月：1月）</div>
+        </div>
+        <div class="bottom__company">
+          <div class="bottom__company__li">資本金</div>
+          <div class="bottom__company__main">1000万円</div>
+        </div>
+        <div class="bottom__company">
+          <div class="bottom__company__li">社員数</div>
+          <div class="bottom__company__main">80名</div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__oplan">© 2021 Oplan Inc.</div>
+      <div class="footer__site">SITE POLICY</div>
+      <div class="footer__priv">PRIVACY POLICY</div>
+    </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+    crossorigin="anonymous"></script>
+    <script src="scripts/loading.js"></script>
+    <script src="scripts/header.js"></script>
   </body>
 </html>
